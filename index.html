@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login · SQL Injection Lab</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box">
+        <h1>🔐 Login</h1>
+        <p>Ambiente de testes · SQL Injection</p>
+        <form method="POST" action="index.php">
+          <div class="input-group">
+            <label for="usuario">Usuário</label>
+            <input
+              type="text"
+              name="usuario"
+              id="usuario"
+              placeholder="Digite seu usuário"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="senha">Senha</label>
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              placeholder="Digite sua senha"
+            />
+          </div>
+          <button type="submit">Entrar</button>
+        </form>
+        <div class="warning">
+          ⚠️ Este sistema é propositalmente vulnerável. Use apenas para
+          aprendizado.
+        </div>
+        <div class="footer">
+          <a
+            href="https://github.com/Eliel-DM/Mysql-Injection-Lab"
+            target="_blank"
+            >📁 Repositório oficial no GitHub</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e2b3a, #0f1a24);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 480px;
+}
+
+.login-box {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 40px 35px;
+}
+
+.result-box {
+  max-width: 600px;
+}
+
+h1 {
+  color: #1e2b3a;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+p {
+  color: #5a6a7a;
+  margin-bottom: 25px;
+  font-size: 0.95rem;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  color: #1e2b3a;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #e1e5e9;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition:
+    border 0.2s,
+    box-shadow 0.2s;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4a6fa5;
+  box-shadow: 0 0 0 3px rgba(74, 111, 165, 0.2);
+}
+
+button {
+  width: 100%;
+  background: #1e2b3a;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #2c3e50;
+}
+
+.warning {
+  background: #fff3cd;
+  color: #856404;
+  border-left: 4px solid #ffc107;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  text-align: left;
+}
+
+pre {
+  background: #f4f6f9;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  margin: 15px 0;
+  border: 1px solid #dde1e6;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e1e5e9;
+  margin: 25px 0 15px;
+}
+
+details {
+  cursor: pointer;
+  color: #4a6fa5;
+}
+
+details summary {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4a6fa5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/* já existente ... */
+
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #e1e5e9;
+  padding-top: 20px;
+}
+
+.footer a {
+  color: #4a6fa5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
